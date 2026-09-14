@@ -137,7 +137,7 @@ The code integrates:
 ## 📷 Hardware Photo
 
 <p align="center">
-  <img src="./Pics/Hardware_View.jpg" width="55%">
+  <img src="./Pics/Hardware_View.png" width="55%">
 </p>
 
 
