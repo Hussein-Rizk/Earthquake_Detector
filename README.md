@@ -140,68 +140,13 @@ If your repository contains the hardware image inside the `Pics` folder, this se
 
 ```html
 <p align="center">
-  <img src="./Pics/Hardware_View.jpg" width="55%">
+  <img src="./Hardware_View.jpg" width="55%">
 </p>
 ```
 
 > If your image file has a different name, just replace `Hardware_View.jpg` with the actual file name.
 
----
 
-## 📁 Suggested Repository Structure
-
-```text
-Earthquake-Detector-House/
-│
-├── README.md
-├── Earthquake Detector.pptx
-│
-├── Pics/
-│   └── Hardware_View.jpg
-│
-├── Earthquake_Detector_House_2024/
-│   └── Earthquake_Detector_House_2024.ino
-│
-└── SolidWorks_Design/
-    ├── Assem1(2).SLDASM
-    ├── Assem1.SLDPRT
-    ├── Assem1(1).STL
-    ├── back(1).SLDPRT
-    ├── back.STL
-    ├── base(1).SLDPRT
-    ├── base.STL
-    ├── Door(1).SLDPRT
-    ├── FRONT(1).SLDPRT
-    ├── FRONT(1).STL
-    ├── sides(1).SLDPRT
-    └── sides.STL
-```
-
----
-
-## 📂 Repository Contents
-
-### 1. `Earthquake Detector.pptx`
-Contains the presentation explaining:
-
-- project objective
-- MPU6050 overview
-- system design
-- working principle
-- data processing and analysis
-- implementation
-- results and future scope
-
-### 2. `Pics/`
-Contains the hardware image(s) of the prototype.
-
-### 3. `Earthquake_Detector_House_2024/`
-Contains the Arduino code file:
-
-- `Earthquake_Detector_House_2024.ino`
-
-### 4. `SolidWorks_Design/`
-Contains the SolidWorks and STL files for the house body design.
 
 ---
 
@@ -234,19 +179,6 @@ Depending on the final wiring and implementation, the code uses libraries such a
 
 ---
 
-## ⚠️ Hardware Note
-
-The vibration motors should **not** be powered directly from Arduino GPIO pins.
-
-For correct operation:
-
-- use a **transistor or MOSFET driver stage**
-- use a suitable external power source for the motors
-- connect all grounds together
-
-This improves reliability and protects the microcontroller.
-
----
 
 ## 🎯 Learning Outcomes
 
