@@ -136,16 +136,11 @@ The code integrates:
 
 ## 📷 Hardware Photo
 
-If your repository contains the hardware image inside the `Pics` folder, this section will show it:
-
 ```html
 <p align="center">
   <img src="./Pics/Hardware_View.jpg" width="55%">
 </p>
 ```
-
-> If your image file has a different name, just replace `Hardware_View.jpg` with the actual file name.
-
 
 
 ---
