@@ -136,11 +136,10 @@ The code integrates:
 
 ## 📷 Hardware Photo
 
-```html
 <p align="center">
   <img src="./Pics/Hardware_View.jpg" width="55%">
 </p>
-```
+
 
 
 ---
