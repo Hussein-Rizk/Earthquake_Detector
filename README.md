@@ -140,7 +140,7 @@ If your repository contains the hardware image inside the `Pics` folder, this se
 
 ```html
 <p align="center">
-  <img src="./Hardware_View.jpg" width="55%">
+  <img src="./Pics/Hardware_View.jpg" width="55%">
 </p>
 ```
 
